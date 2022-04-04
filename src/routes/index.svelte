@@ -25,7 +25,7 @@
 	let theme = 'light';
 	let accent: AccentColors = 'green';
 	let size = 'normal';
-	let lang = 'en';
+	let lang = 'es';
 
 	setContext('lang', writable(lang));
 	setContext('groupOrError', writable(groupOrError));
