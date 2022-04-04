@@ -16,7 +16,7 @@
 	let theme: 'light' | 'dark' = 'light';
 	let accent: AccentColors = 'green';
 	let size: 'normal' | 'small' = 'normal';
-	let lang = writable('en');
+	let lang = writable('es');
 	let domain = '';
 
 	let expanded = false;
