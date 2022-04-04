@@ -26,7 +26,7 @@ function localizeTo(language: Language, reference: string, fallbackReference?: s
 type ConfigNames = 'anime_airing' | 'anime_bluray' | 'manga_chapter' | 'manga_volume';
 
 export function createLocalization(
-	lang_locale: string = 'en',
+	lang_locale: string = 'es',
 	context: ConfigNames = 'anime_airing'
 ) {
 	const language = languages.find((lang) => lang[context].locale.locale === lang_locale)[context];
